@@ -57,7 +57,7 @@ TEXT_MESSAGES = {
         "outdated_text": "...",
 
         "main_menu": (
-            f"{hide_link('https://telegra.ph//file/f29a3f8f3b9da2e727bfc.mp4')}"
+            f"{hide_link('https://raw.githubusercontent.com/Ptah9/Y-Ptah-projects-images/main/ptah-pass-images/hi.jpg')}"
             "🤖 <b>привет!</b>\n\n"
             "Здесь ты можешь предъявить свой пропуск"
             "и попасть в приватный канал + чат @ptah_9\n\n"
@@ -69,22 +69,22 @@ TEXT_MESSAGES = {
             "<b>Подключен к:</b> {wallet}"
         ),
         "select_language": (
-            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
+            f"{hide_link('https://raw.githubusercontent.com/Ptah9/Y-Ptah-projects-images/main/ptah-pass-images/waining.jpg')}"
             "👋 <b>ку!</b>\n\n"
             "выбирай язык:"
         ),
         "change_language": (
-            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
+            f"{hide_link('https://raw.githubusercontent.com/Ptah9/Y-Ptah-projects-images/main/ptah-pass-images/waining.jpg')}"
             "<b>выбирай язык:</b>"
         ),
         "deny_access": (
-            f"{hide_link('https://telegra.ph//file/27ea981da5febfa619d4d.jpg')}"
+            f"{hide_link('https://raw.githubusercontent.com/Ptah9/Y-Ptah-projects-images/main/ptah-pass-images/no.jpg')}"
             "🚫 <b> у тебя нет пропуска</b>\n\n"
             "Ты что, хотел меня обмануть???? У тебя же нет пропуска в приватку\n\n"
             "Не расстраивайся, ты можешь <b>купить себе пропуск</b> ниже и повторить попытку."
         ),
         "allow_access": (
-            f"{hide_link('https://telegra.ph//file/a8e46b3e4c1c86b7fe574.jpg')}"
+            f"{hide_link('https://raw.githubusercontent.com/Ptah9/Y-Ptah-projects-images/main/ptah-pass-images/okay.jpg')}"
             "🎉 <b>все в норме, проходите</b>\n\n"
             "Вижу, пропуск на месте, проходи, будь как дома\n\n"
             "По кнопкам ниже подавай заявку на вступление, я сразу же их одобрю!"
@@ -95,12 +95,12 @@ TEXT_MESSAGES = {
             "отсканируй с помощью кошелька на телефоне:"
         ),
         "connect_wallet_proof_wrong": (
-            f"{hide_link('https://telegra.ph//file/a4ddc111ff41692ad5200.jpg')}"
+            f"{hide_link('https://raw.githubusercontent.com/Ptah9/Y-Ptah-projects-images/main/ptah-pass-images/oops.jpg')}"
             "<b>стой, проблемка</b>\n\n"
             "подпись кошелька поддельна или истекло время ожидания подключения."
         ),
         "connect_wallet_timeout": (
-            f"{hide_link('https://telegra.ph//file/a4ddc111ff41692ad5200.jpg')}"
+            f"{hide_link('https://raw.githubusercontent.com/Ptah9/Y-Ptah-projects-images/main/ptah-pass-images/oops.jpg')}"
             "<b>стой, проблемка</b>\n\n"
             "время ожидания подключения истекло."
         ),
