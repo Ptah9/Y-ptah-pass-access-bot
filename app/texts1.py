@@ -1,7 +1,5 @@
 from aiogram.utils.markdown import hide_link
 
-from .texts_pics import pictures
-
 # Add other languages and their corresponding codes as needed.
 SUPPORTED_LANGUAGES = {
     "ru": "🇷🇺 Русский",
@@ -59,7 +57,7 @@ TEXT_MESSAGES = {
         "outdated_text": "...",
 
         "main_menu": (
-            f"{hide_link(pictures['Hi'])}"
+            f"{hide_link('https://raw.githubusercontent.com/Ptah9/Y-Ptah-projects-images/main/ptah-pass-images/hi.jpg')}"
             "🤖 <b>привет!</b>\n\n"
             "Здесь ты можешь предъявить свой пропуск "
             "и попасть в приватный канал + чат @ptah_9\n\n"
@@ -71,129 +69,124 @@ TEXT_MESSAGES = {
             "<b>Подключен к:</b> {wallet}"
         ),
         "select_language": (
-            f"{hide_link(pictures['Waiting'])}"
+            f"{hide_link('https://raw.githubusercontent.com/Ptah9/Y-Ptah-projects-images/main/ptah-pass-images/waining.jpg')}"
             "👋 <b>ку!</b>\n\n"
             "выбирай язык:"
         ),
         "change_language": (
-            f"{hide_link(pictures['Waiting'])}"
-            "<b>Выбери язык:</b>"
+            f"{hide_link('https://raw.githubusercontent.com/Ptah9/Y-Ptah-projects-images/main/ptah-pass-images/waining.jpg')}"
+            "<b>выбирай язык:</b>"
         ),
         "deny_access": (
-            f"{hide_link(pictures['No'])}"
+            f"{hide_link('https://raw.githubusercontent.com/Ptah9/Y-Ptah-projects-images/main/ptah-pass-images/no.jpg')}"
             "🚫 <b> у тебя нет пропуска</b>\n\n"
             "Ты что, хотел меня обмануть???? У тебя же нет пропуска в приватку\n\n"
             "Не расстраивайся, ты можешь <b>купить себе пропуск</b> ниже и повторить попытку."
         ),
         "allow_access": (
-            f"{hide_link(pictures['Okay'])}"
+            f"{hide_link('https://raw.githubusercontent.com/Ptah9/Y-Ptah-projects-images/main/ptah-pass-images/okay.jpg')}"
             "🎉 <b>все в норме, проходите</b>\n\n"
             "Вижу, пропуск на месте, проходи, будь как дома\n\n"
             "По кнопкам ниже подавай заявку на вступление, я сразу же их одобрю!"
         ),
-        "user_kicked": (
-            "пользователя {user} [{wallet}] выгнали отовсюду!"
-        ),
-
         "connect_wallet": (
             f"<a href='https://ton.org/wallets?filters[wallet_features][slug][$in]=dapp-auth&pagination[limit]=-1'>Установить кошелек</a>\n\n"
             "<b>Подключи свой {wallet_name}!</b>\n\n"
             "отсканируй с помощью кошелька на телефоне:"
         ),
         "connect_wallet_proof_wrong": (
-            f"{hide_link(pictures['Oops'])}"
+            f"{hide_link('https://raw.githubusercontent.com/Ptah9/Y-Ptah-projects-images/main/ptah-pass-images/oops.jpg')}"
             "<b>стой, проблемка</b>\n\n"
             "подпись кошелька поддельна или истекло время ожидания подключения."
         ),
         "connect_wallet_timeout": (
-            f"{hide_link(pictures['Oops'])}"
+            f"{hide_link('https://raw.githubusercontent.com/Ptah9/Y-Ptah-projects-images/main/ptah-pass-images/oops.jpg')}"
             "<b>стой, проблемка</b>\n\n"
             "время ожидания подключения истекло."
         ),
 
         "admin_menu": (
-            f"{hide_link(pictures['Main'])}"
-            "<b>Панель администратора</b>\n\nВыберите действие:"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
+            "<b>панель администратора</b>\n\nвыберите действие:"
         ),
         "chats_menu": (
-            f"{hide_link(pictures['Main'])}"
-            "<b>Меню приватных чатов</b>\n\nВыберите действие:"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
+            "<b>меню приватных чатов</b>\n\выберите действие:"
         ),
         "chat_info": (
-            f"{hide_link(pictures['Main'])}"
-            "• <b>Информация о приватном чате</b>\n\n"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
+            "• <b>информация о приватном чате</b>\n\n"
             "• <b>ID:</b>\n"
             "<blockquote>{chat_id}</blockquote>\n"
-            "• <b>Тип:</b>\n"
+            "• <b>тип:</b>\n"
             "<blockquote>{chat_type}</blockquote>\n"
-            "• <b>Название:</b>\n"
+            "• <b>название:</b>\n"
             "<blockquote>{chat_name}</blockquote>\n"
-            "• <b>Ссылка приглашения:</b>\n"
+            "• <b>ссылка приглашения:</b>\n"
             "<blockquote>{chat_invite_link}</blockquote>\n"
-            "• <b>Дата создания:</b>\n"
+            "• <b>дата создания:</b>\n"
             "<blockquote>{chat_created_at}</blockquote>"
         ),
         "tokens_menu": (
-            f"{hide_link(pictures['Main'])}"
-            "<b>Меню токенов</b>\n\nВыберите действие:"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
+            "<b>меню токенов</b>\n\nвыберите действие:"
         ),
         "token_info": (
-            f"{hide_link(pictures['Main'])}"
-            "• <b>Информация о токене</b>\n\n"
-            "• <b>Тип:</b>\n"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
+            "• <b>информация о токене</b>\n\n"
+            "• <b>тип:</b>\n"
             "<blockquote>{token_type}</blockquote>\n"
-            "• <b>Название:</b>\n"
+            "• <b>название:</b>\n"
             "<blockquote>{token_name}</blockquote>\n"
-            "• <b>Адрес:</b>\n"
+            "• <b>адрес:</b>\n"
             "<blockquote>{token_address}</blockquote>\n"
-            "• <b>Минимальная сумма:</b>\n"
+            "• <b>минимальная сумма:</b>\n"
             "<blockquote>{token_min_amount}</blockquote>\n"
-            "• <b>Дата создания:</b>\n"
+            "• <b>дата создания:</b>\n"
             "<blockquote>{token_created_at}</blockquote>"
         ),
-        "token_send_address": "<b>Введите адрес токена</b>\n\nРазрешены только адреса коллекций NFT и мастеров Jetton:",
+        "token_send_address": "<b>введите адрес токена</b>\n\nразрешены только адреса коллекций NFT и мастеров Jetton:",
         "token_send_address_error": "Недопустимый адрес токена:\n{}",
-        "token_send_address_error_already_exist": "Токен с адресом {address} уже существует!",
-        "token_send_address_error_not_supported": "Контракт {interfaces} не поддерживается.\nПоддерживаются только {supported_interfaces}.",
+        "token_send_address_error_already_exist": "токен с адресом {address} уже существует!",
+        "token_send_address_error_not_supported": "контракт {interfaces} не поддерживается.\nподдерживаются только {supported_interfaces}.",
         "token_send_amount": (
-            "<b>Информация о токене</b>:\n\n"
-            "• <b>Тип:</b>\n{token_type}\n"
-            "• <b>Название:</b>\n{token_name}\n\n"
-            "<b>Введите минимальную сумму токена</b> для доступа к приватному чату:"
+            "<b>информация о токене</b>:\n\n"
+            "• <b>тип:</b>\n{token_type}\n"
+            "• <b>название:</b>\n{token_name}\n\n"
+            "<b>введите минимальную сумму токена</b> для доступа к приватному чату:"
         ),
-        "token_edit_amount": "<b>Введите новую сумму токена</b> для доступа к приватному чату:",
-        "token_send_amount_error": "Неверная сумма токена!",
+        "token_edit_amount": "<b>введите новую сумму токена</b> для доступа к приватному чату:",
+        "token_send_amount_error": "неверная сумма токена!",
         "admins_menu": (
-            f"{hide_link(pictures['Main'])}"
-            "<b>Меню администраторов</b>\n\nВыберите действие:"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
+            "<b>меню администраторов</b>\n\nвыберите действие:"
         ),
         "admin_info": (
-            f"{hide_link(pictures['Main'])}"
-            "• <b>Информация об администраторе</b>\n\n"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
+            "• <b>информация об администраторе</b>\n\n"
             "• <b>ID:</b>\n"
             "<blockquote>{admin_id}</blockquote>\n"
-            "• <b>Имя:</b>\n"
+            "• <b>имя:</b>\n"
             "<blockquote>{admin_full_name}</blockquote>\n"
-            "• <b>Имя пользователя:</b>\n"
+            "• <b>имя пользователя:</b>\n"
             "<blockquote>{admin_username}</blockquote>\n"
-            "• <b>Дата создания:</b>\n"
+            "• <b>дата создания:</b>\n"
             "<blockquote>{admin_created_at}</blockquote>"
         ),
-        "admin_send_id": "<b>Введите ID администратора:</b>",
-        "admin_send_id_error": "Недопустимый ID:\n{}",
-        "admin_send_id_error_not_found": "Администратор не найден. Сначала пользователь должен начать диалог с ботом.",
+        "admin_send_id": "<b>введите ID администратора:</b>",
+        "admin_send_id_error": "недопустимый ID:\n{}",
+        "admin_send_id_error_not_found": "администратор не найден. Сначала пользователь должен начать диалог с ботом.",
         "admin_send_id_error_not_member": "ID администратора должен быть числом.",
-        "confirm_item_add": "<b>Подтвердите</b> добавление {item} в {table}?",
+        "confirm_item_add": "<b>подтвердите</b> добавление {item} в {table}?",
         "item_added": "{item} добавлен в {table}!",
-        "confirm_item_delete": "<b>Подтвердите</b> удаление {item} из {table}?",
+        "confirm_item_delete": "<b>подтвердите</b> удаление {item} из {table}?",
         "item_deleted": "{item} удален из {table}!"
     },
     "en": {
         "loader_text": "⏳",
         "outdated_text": "...",
-
         "main_menu": (
-            f"{hide_link(pictures['Hi'])}"
+            f"{hide_link('https://telegra.ph//file/db9c5c3febe75811e41af.jpg')}"
             "🤖 <b>Hi!</b>\n\n"
             "Here you can show your pass"
             "and get into Anton’s private channel + chat of @Ptah_9\n\n"
@@ -205,56 +198,53 @@ TEXT_MESSAGES = {
             "<b>Connected to:</b> {wallet}"
         ),
         "select_language": (
-            f"{hide_link(pictures['Hi'])}"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
             "👋 <b>Hello!</b>\n\n"
-            "Choose a language:"
+            "сhoose a language:"
         ),
         "change_language": (
-            f"{hide_link(pictures['Hi'])}"
-            "<b>Choose a language:</b>"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
+            "<b>сhoose a language:</b>"
         ),
         "deny_access": (
-            f"{hide_link(pictures['No'])}"
+            f"{hide_link('https://telegra.ph//file/ceec89ba75c903210411c.jpg')}"
             "🚫 <b>You don't have a pass</b>\n\n"
             "Did you want to deceive me??? You don't have a private pass\n\n"
             "Don't worry, you can <b>buy your pass</b> below and try again."
         ),
         "allow_access": (
-            f"{hide_link(pictures['Okay'])}"
+            f"{hide_link('https://telegra.ph//file/6b03c59182d959cddeb02.jpg')}"
             "🎉 <b>everything is fine, come in</b>\n\n"
             "I see the pass is there, come in, make yourself at home\n\n"
             "Use the buttons below to apply for membership, I will approve them immediately!"
         ),
-        "user_kicked": (
-            "User {user} [{wallet}] was kicked from chat and chanel!"
-        ),
 
         "connect_wallet": (
-            f"<a href='https://ton.org/wallets?locale=en&filters[wallet_features][slug][$in]=dapp-auth&pagination[limit]=-1'>Get a Wallet</a>\n\n"
+            f"<a href='https://ton.org/wallets?filters[wallet_features][slug][$in]=dapp-auth&pagination[limit]=-1'>Get a Wallet</a>\n\n"
             "<b>Connect your {wallet_name}!</b>\n\n"
-            "Scan with your mobile app wallet:"
+            "scan with your mobile app wallet:"
         ),
         "connect_wallet_proof_wrong": (
-            f"{hide_link(pictures['Oops'])}"
+            f"{hide_link('https://telegra.ph//file/a4ddc111ff41692ad5200.jpg')}"
             "<b>Warning</b>\n\n"
-            "The wallet signature is wrong or the connection timeout has expired."
+            "the wallet signature is wrong or the connection timeout has expired."
         ),
         "connect_wallet_timeout": (
-            f"{hide_link(pictures['Oops'])}"
+            f"{hide_link('https://telegra.ph//file/a4ddc111ff41692ad5200.jpg')}"
             "<b>Warning</b>\n\n"
-            "The connection timeout has expired."
+            "the connection timeout has expired."
         ),
 
         "admin_menu": (
-            f"{hide_link(pictures['Main'])}"
-            "<b>Administrator Panel</b>\n\nSelect action:"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
+            "<b>administrator Panel</b>\n\nselect action:"
         ),
         "chats_menu": (
-            f"{hide_link(pictures['Main'])}"
-            "<b>Private Chats Menu</b>\n\nSelect action:"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
+            "<b>private Chats Menu</b>\n\nselect action:"
         ),
         "chat_info": (
-            f"{hide_link(pictures['Main'])}"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
             "• <b>Private Chat Information</b>\n\n"
             "• <b>ID:</b>\n"
             "<blockquote>{chat_id}</blockquote>\n"
@@ -268,11 +258,11 @@ TEXT_MESSAGES = {
             "<blockquote>{chat_created_at}</blockquote>"
         ),
         "tokens_menu": (
-            f"{hide_link(pictures['Main'])}"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
             "<b>Tokens Menu</b>\n\nSelect action:"
         ),
         "token_info": (
-            f"{hide_link(pictures['Main'])}"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
             "• <b>Token Information</b>\n\n"
             "• <b>Type:</b>\n"
             "<blockquote>{token_type}</blockquote>\n"
@@ -300,11 +290,11 @@ TEXT_MESSAGES = {
         "token_edit_amount": "<b>Enter the new token amount</b> to access the private chat:",
         "token_send_amount_error": "Invalid token amount!",
         "admins_menu": (
-            f"{hide_link(pictures['Main'])}"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
             "<b>Administrators Menu</b>\n\nSelect action:"
         ),
         "admin_info": (
-            f"{hide_link(pictures['Main'])}"
+            f"{hide_link('https://telegra.ph//file/aaba319da09f60e6def03.jpg')}"
             "• <b>Administrator Information</b>\n\n"
             "• <b>ID:</b>\n"
             "<blockquote>{admin_id}</blockquote>\n"
@@ -325,3 +315,6 @@ TEXT_MESSAGES = {
         "item_deleted": "{item} deleted from {table}!"
     }
 }
+
+
+
