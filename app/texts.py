@@ -61,7 +61,7 @@ TEXT_MESSAGES = {
         "main_menu": (
             f"{hide_link(pictures['Hi'])}"
             "🤖 <b>привет!</b>\n\n"
-            "Здесь ты можешь предъявить свой пропуск Ptah pass"
+            "Здесь ты можешь предъявить свой пропуск Ptah pass "
             "и получить все привилегии, которые он может дать на данный момент\n\n"
             # "<blockquote><b>Приватные чаты:</b>\n{chats}\n"
             # "<b>Необходимые токены:</b>\n{tokens}</blockquote>\n\n"
@@ -195,7 +195,7 @@ TEXT_MESSAGES = {
         "main_menu": (
             f"{hide_link(pictures['Hi'])}"
             "🤖 <b>Hi!</b>\n\n"
-            "Here you can show your Ptah pass"
+            "Here you can show your Ptah pass "
             "and get all the privileges it can give at the moment\n\n"
             # "<blockquote><b>Private Chats:</b>\n{chats}\n"
             # "<b>Required Tokens:</b>\n{tokens}</blockquote>\n\n"
