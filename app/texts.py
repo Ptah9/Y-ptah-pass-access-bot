@@ -61,13 +61,13 @@ TEXT_MESSAGES = {
         "main_menu": (
             f"{hide_link(pictures['Hi'])}"
             "🤖 <b>привет!</b>\n\n"
-            "Здесь ты можешь предъявить свой пропуск "
-            "и попасть в приватный канал + чат @ptah_9\n\n"
+            "Здесь ты можешь предъявить свой пропуск Ptah pass"
+            "и получить все привилегии, которые он может дать на данный момент\n\n"
             # "<blockquote><b>Приватные чаты:</b>\n{chats}\n"
             # "<b>Необходимые токены:</b>\n{tokens}</blockquote>\n\n"
             "Жми на <b>предъявить пропуск</b> и проходи!\n"
-            "Но помни, если ты продашь свой пропуск, бот выгонит из чата и канала!\n\n"
-            "ну и не забывай подписываться на мой основной канал @what_now_ptah, там весело!\n\n"
+            "Но помни, если ты продашь свой пропуск, бот заберет у тебя все привилегии и выгонит из всех приватных чатов!\n\n"
+            "ну и не забывай подписываться на канал Ptah Industries - @Ptah_Industries, там будут выкладываться все новости, и основной канал Птаха - @what_now_ptah, там весело и полезно!\n\n"
             "<b>Подключен к:</b> {wallet}"
         ),
         "select_language": (
@@ -89,7 +89,7 @@ TEXT_MESSAGES = {
             f"{hide_link(pictures['Okay'])}"
             "🎉 <b>все в норме, проходите</b>\n\n"
             "Вижу, пропуск на месте, проходи, будь как дома\n\n"
-            "По кнопкам ниже подавай заявку на вступление, я сразу же их одобрю!"
+            "По кнопкам ниже подавай заявки на вступление, я сразу же их одобрю!"
         ),
         "user_kicked": (
             "пользователя {user} [{wallet}] выгнали отовсюду!"
@@ -195,13 +195,13 @@ TEXT_MESSAGES = {
         "main_menu": (
             f"{hide_link(pictures['Hi'])}"
             "🤖 <b>Hi!</b>\n\n"
-            "Here you can show your pass"
-            "and get into Anton’s private channel + chat of @Ptah_9\n\n"
+            "Here you can show your Ptah pass"
+            "and get all the privileges it can give at the moment\n\n"
             # "<blockquote><b>Private Chats:</b>\n{chats}\n"
             # "<b>Required Tokens:</b>\n{tokens}</blockquote>\n\n"
             "Click on <b>show pass</b> and go through!\n"
-            "But remember, if you sell your pass, the bot will kick you out of the chat and channel!\n\n"
-            "Well, don’t forget to subscribe to my main channel @what_now_ptah, it’s fun!\n\n"
+            "But remember, if you sell your pass, the bot will take away all your privileges and kick you out of all private chats!\n\n"
+            "also don’t forget to subscribe to the Ptah Industries channel - @Ptah_Industries, all the news will be posted there, and the main Ptah channel - @what_now_ptah, it’s fun and useful there!\n\n"
             "<b>Connected to:</b> {wallet}"
         ),
         "select_language": (
